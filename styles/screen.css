@@ -455,14 +455,14 @@ img.assoc {
 
 a.tw svg,
 a.tw {
-    width: 4.2em;
-    height: 4.2em;
+    width: 5.2em;
+    height: 10.2em;
     display: block;
     margin: 0 auto
 }
 
 a.tw {
-    border-radius: 10em;
+    border-radius: 0.2em;
     transition: background-color 0.3s ease-out
 }
 
@@ -500,8 +500,8 @@ a:hover.tw {
 @media (min-width: 400px) {
     a.tw svg,
     a.tw {
-        width: 4.2em;
-        height: 4.2em;
+        width: 7.2em;
+        height: 2.2em;
         display: inline-block;
         margin: 0;
         float: left
@@ -517,12 +517,12 @@ a:hover.tw {
         padding: 1.125em 2em 1.125em 1.5em
     }
     a.tw svg {
-        width: 5.1em;
-        height: 5.1em
+        width: 7em;
+        height: 4.1em
     }
     a.tw {
-        width: 5em;
-        height: 5em;
+        width: 7em;
+        height: 2em;
         padding: 0 0.1em 0.1em 0
     }
     #nav ul {
