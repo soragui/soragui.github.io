@@ -23,9 +23,10 @@
   <!-- stylesheets -->
   <link href="../styles/screen.css" rel="stylesheet">
   <link href="https://use.typekit.net/iwu3yfx.css" rel="stylesheet">
-
-
-
+   
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr --> 
   <link rel="icon" type="image/png" href="img/favicon.png" >
   <!-- holy shit icons -->
 
@@ -94,13 +95,30 @@
       <article class="article" >
 
         <div class="grid-row centered" >
-          <h4 > 证明自己曾经来到了这是世界，曾经在这里留下了自己的足迹、回忆，留下了悲伤、快乐。
-
+          <h4 > 
+            证明自己曾经来到了这是世界，曾经在这里留下了自己的足迹、回忆，留下了悲伤、快乐。
           </h4>
         </div>
 
       </article>
 
+
+      <section id="cd-timeline" class="cd-container"> 
+
+          <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-picture">
+                <img src="img/cd-icon-picture.svg" alt="Picture">
+              </div> <!-- cd-timeline-img -->
+        
+              <div class="cd-timeline-content">
+                <h2>Title of section 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                <a href="#0" class="cd-read-more">Read more</a>
+                <span class="cd-date">Jan 14</span>
+              </div> <!-- cd-timeline-content -->
+          </div> <!-- cd-timeline-block -->
+
+      </section>
 
 <!-- 
       <article class="article">
@@ -194,6 +212,10 @@
 
   </div>
   <!-- end pagewrap -->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/main.js"></script> <!-- Resource jQuery -->
+
 </body>
 
 </html>
