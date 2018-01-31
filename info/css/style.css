@@ -1,3 +1,15 @@
+
+/**  timer pattern
+  */
+
+.timer {
+  text-align: center;
+}
+
+#s {
+  color: #c03b44;
+}
+
 /* -------------------------------
 Modules - reusable parts of our design
 

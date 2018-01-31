@@ -10,7 +10,8 @@
   <title> 永远的爱 | Eternal Love </title>
 
   <script src="/scripts/2.1.3.jquery.min.js"></script>
-  <script src="/scripts/paravelpluginsmin.js"></script>  
+  <script src="/scripts/paravelpluginsmin.js"></script> 
+  <script src="js/modernizr.js"></script> 
 
   <!-- stylesheets -->
   <link href="../styles/screen.css" rel="stylesheet">
@@ -73,10 +74,15 @@
       <article class="article">
 
         <div class="grid-row centered">
-          <h4>
+          <h5>
             证明自己曾经来到了这是世界，曾经在这里留下了自己的足迹、回忆，留下了悲伤、快乐。
-          </h4>
-        </div>
+          </h5>
+
+          <br>
+          <div class="timer"> 
+            <b id="d"></b> 天 <b id="h"></b> 时 <b id="m"></b> 分 <b id="s"></b> 秒
+          </div>
+        </div> 
 
       </article>
 
@@ -223,6 +229,7 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/timer.js"></script>
   <!-- Resource jQuery -->
 
 </body>
