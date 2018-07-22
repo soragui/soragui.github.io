@@ -4,6 +4,9 @@ permalink: about/
 profile: true
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+90后喜欢分享的程序员，虽然这是IT届的农名工，但我还是很荣幸。因为代码的世界真的很精彩。所以我希望可以通过我的文笔来分享我写代码的各种经历心得，一是为了锤炼自己的知识技能，毕竟把一个知识点用自己的话表达出来才算学习到了；二是锻炼自己的书写表达能力，虽然写文章用心很重要，但经常练习更重要，我需要找到自己的那种表达方式。 
+
+欢迎关注微信公众号
+![](/assets/images/wechat.jpg)
 
 {% include footer.html %}
