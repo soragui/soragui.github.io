@@ -1,4 +1,4 @@
-name: 追求真空
+title: 追求真空
 description: 用心编程，用心写文章
 meta_description: "追求真空个人博客，编程学习心得分享"
 
@@ -21,22 +21,8 @@ authorTwitter:  'ziwo520'
 
 permalink:       /:year/:title/
 
-defaults:
-    -
-        scope:
-            path: "" # empty string for all files
-            type: pages
-        values:
-            layout: default
-    -
-        scope:
-            path: "" # empty string for all files
-            type: posts
-        values:
-            layout: post
-    -
-        scope:
-            path: ""
-            type: drafts
-        values:
-            layout: post
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about  
