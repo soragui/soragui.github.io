@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: 追求真空
+description: 用心编程，用心写文章
+meta_description: "追求真空个人博客，编程学习心得分享"
 
 aboutPage: true
 
@@ -9,15 +9,15 @@ highlighter: rouge
 
 plugins: [jekyll-paginate]
 paginate: 20
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://104.194.78.234'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'https://brucegui.github.io'
+author:         '追求真空'
+authorTwitter:  'ziwo520'
 
 permalink:       /:year/:title/
 
