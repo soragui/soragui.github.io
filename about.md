@@ -8,4 +8,4 @@ profile: true
 
 欢迎关注微信公众号
 
-<img src="/assets/images/wechat.jpg" width="64" height="64" >
+<img src="/assets/images/wechat.jpg" width="128" height="128" alt="追求真空" >
