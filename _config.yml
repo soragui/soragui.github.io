@@ -24,7 +24,7 @@ github_username:  brucegui
 
 # Build settings
 markdown: kramdown
-theme: mi
+theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
   - jemoji
