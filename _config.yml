@@ -23,6 +23,4 @@ permalink:       /:year/:title/
 
 navigation:
  - title: Home
-   url: /index.html
- - title: About
-   url: /about  
+   url: /index.html   
