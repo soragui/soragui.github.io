@@ -247,6 +247,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-paginate
+  jekyll-seo-tag
   support-for
 
 BUNDLED WITH
