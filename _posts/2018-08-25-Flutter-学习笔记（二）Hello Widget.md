@@ -4,6 +4,7 @@ author: soragui
 category: flutter programming mobile app
 keywords: flutter hello world
 description: flutter 学习笔记 hello world widget 工程目录详细解析
+image: flutter.png
 ---
 
 > Flutter 中的一切都可以视为 Widget，好吧我还是理解的不太深入，不过解释一个简单的Widget还是可以了，那么下面我们就来看看Flutter中的Hello Widget 是什么样子的吧！
