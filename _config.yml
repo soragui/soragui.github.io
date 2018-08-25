@@ -1,8 +1,7 @@
 title: 追求真空
 description: 用心编程，用心写文章
 meta_description: "追求真空个人博客，编程学习心得分享"
- 
-theme: sora-elegant-theme
+
 markdown: kramdown
 highlighter: rouge
 
