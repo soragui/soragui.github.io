@@ -27,7 +27,4 @@ theme_settings:
   special_page:
     search:
       enabled: false
-  
-navigation:
- - title: Home
-   url: /index.html   
+ 
