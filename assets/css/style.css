@@ -707,11 +707,11 @@ video {
 }
 
 a {
-    color: #2e8b57
+    color: #4c88cc
 }
 
 a:hover {
-    color: #1b5233
+    color: #2a6080
 }
 
 .nav-collapse {
@@ -792,6 +792,10 @@ dt {
 
 dd {
     margin: 0 0 1.5rem
+}
+
+.postImage {
+    object-position: 50% 50%;
 }
 
 .post ol ol,
