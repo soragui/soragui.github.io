@@ -100,9 +100,11 @@ bottomNavigationBar: Text('bottomNavigationBar'),
 ```
 
 ![text](/assets/images/basicwidget/bottomtext.png)
+
 好吧，这个虽然可以，但好像并不是很美观，我们还是添加一个 NavigationBar 吧。首先Flutter 自带了一个 BottomNavigationBar 这个 Widget，那么我们就用这个看看到底是怎么回事：
 
 ```dart
+
 bottomNavigationBar: BottomNavigationBar(
 
     items: => <BottomNavigationBarItem>[]  // BNBI 数组
@@ -110,6 +112,7 @@ bottomNavigationBar: BottomNavigationBar(
     onTap: (value) {}  // 监听函数 
 
 )
+
 ```
 
 可以看出，bNB 总共有三个重要的参数，一个 items index 显示 一个 监听函数，如果需要和相应的页面对应相应的 item 点击事件，那么就需要自己控制整个 index ，根据 index 的改变来显示相应的页面...
