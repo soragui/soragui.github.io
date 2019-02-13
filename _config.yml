@@ -10,15 +10,15 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 paginate: 20
-domain_name: 'https://brucegui.github.io' 
+domain_name: 'https://soragui.com' 
 disqus: true
-disqus_shortname: 'your-disqus-shortname'
+disqus_shortname: 'ziwo520'
 social:
   twitter: ziwo520
   github: soragui
 
 # Details for the RSS feed generator
-url:            'https://brucegui.github.io'
+url:            'https://soragui.com'
 author:         soragui 
 
 permalink:       /:year/:title/
