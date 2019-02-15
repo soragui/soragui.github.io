@@ -1,5 +1,5 @@
 title: 追求真空
-subtitle: Programming-Make Life More Easy.
+subtitle: 编程让生活更轻松.
 description: 用心编程，用心写文章
 meta_description: "追求真空个人博客，编程学习心得分享"
 
@@ -11,11 +11,11 @@ plugins:
   - jekyll-seo-tag
 paginate: 20
 domain_name: 'https://soragui.com' 
-disqus: true
-disqus_shortname: 'ziwo520'
+disqus: soragui
 social:
-  twitter: ziwo520
-  github: soragui
+  name: 追求真空
+  twitter: https://twitter.com/ziwo520
+  github: https://github.com/soragui
 
 # Details for the RSS feed generator
 url:            'https://soragui.com'
@@ -23,8 +23,9 @@ author:         soragui
 
 permalink:       /:year/:title/
 
-theme_settings:
-  special_page:
-    search:
-      enabled: false
+# seo setting
+logo: /assets/images/favicon.png
+twitter:
+  username: ziwo520
+  card: summary
  
