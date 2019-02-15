@@ -67,7 +67,7 @@ disqus: YOUR_SHORTNAME
 </section>
 ```
 
-3. 找到你的 post.html 文件，然后在合适的地方添加如下：
+### 3. 找到你的 post.html 文件，然后在合适的地方添加如下：
 
 ```html
 {% include disqus.html %}
