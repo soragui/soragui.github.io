@@ -26,7 +26,7 @@ menu:
   - title: 'Blog'
     url: '/posts'
 # seo setting
-logo: assets/images/favicon.png
+logo: assets/images/logo.png
 twitter:
   username: ziwo520
   card: summary
