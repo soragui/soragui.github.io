@@ -22,9 +22,9 @@ url:            'https://soragui.com'
 author:         soragui 
 
 permalink:       /:year/:title/
-menu:
-  - title: 'Blog'
-    url: '/posts'
+#menu:
+#  - title: 'Blog'
+#    url: '/posts'
 # seo setting
 logo: assets/images/logo.png
 twitter:
