@@ -19,7 +19,7 @@ social:
 
 # Details for the RSS feed generator
 url:            'https://soragui.com'
-author:         soragui 
+author:         追求真空 
 
 permalink:       /:year/:title/
 #menu:
