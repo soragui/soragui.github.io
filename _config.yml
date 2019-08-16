@@ -14,8 +14,8 @@ domain_name: 'https://soragui.com'
 disqus: soragui
 social:
   name: 追求真空
-  twitter: https://twitter.com/ziwo520
-  github: https://github.com/soragui
+  twitter: ziwo520
+  github: soragui
 
 # Details for the RSS feed generator
 url:            'https://soragui.com'

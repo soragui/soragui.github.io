@@ -3,13 +3,12 @@
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-   {% include head.html %}
-</head>
+
+{% include head.html %}
 
 <body> 
 
-   {% include header.html %} 
+   {% include header.html %}
 
    <div class="content">
       <div class="container">
@@ -17,11 +16,7 @@
       </div>
    </div><!-- end .content -->
 
-   <div class="footer-wrapper">
-      <footer role="contentinfo">
-        {% include footer.html %}
-      </footer>
-    </div>
+   {% include footer.html %} 
 
 </body>
 
