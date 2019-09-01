@@ -5,23 +5,23 @@
 说明一下我是计算机专业出身的，所以会下意识侧重于IT行业电子书下载网站(有些可能要翻墙)。好了，话不多说首先给出一些中文电子书下载网站:
 
 ### [我的小书屋](http://mebook.cc/)
-![mebook](/assets/images/mebook.png)
+![mebook](/assets/images/ebook/mebook.png)
 此网站可能是一个很喜欢学习的人建立的，书不多但质量还不错，提供网盘下载。
 
 ### [周读](http://ireadweek.com/)
-![ireadweek](/assets/images/ireadweek.png)
+![ireadweek](/assets/images/ebook/ireadweek.png)
 很喜欢的一个网站，是一个个人网站，而且还有公众号，很不错。每天都会推送一本值得阅读的书，下载格式有PDF、EPUB、MOBI等，很方便。
 
 ### [学习网](http://www.minxue.net/)
-![minxue](/assets/images/minxue.png)
+![minxue](/assets/images/ebook/minxue.png)
 这个就比较全力，电脑、语言、经管、科技人文，应有尽有内容丰富，基本上你想找的书上面都会有，你找不到的或许也会有。
 
 ### [鸠摩](https://www.jiumodiary.com/)
-![jiumo](/assets/images/jiumo.png)
+![jiumo](/assets/images/ebook/jiumo.png)
 电子书搜索网站，很不错很全面，功能很强大。大部分搜索结果是链接到新浪分享和百度网盘等国内资源网站。
 
 下面是我推荐的一个外文电子书下载网站，这也是我一直在用的，不过我一般只下载IT类的书籍，基本上没有找不到的，而且这个网站也一直在进步，现在都开通了图片、杂志下载。之前也用过类似的不过用着用着链接就无效了....希望这个可以一直持续下去。
 
 ### [EBook Dl](http://ebook-dl.com)
-![ebook-dl](/assets/images/ebook-dl.png)
+![ebook-dl](/assets/images/ebook/ebook-dl.png)
 喜欢看英文资料、小说的同学千万不要错过，这里不仅有经典小数、专业书籍还有更加专业的文献。可以尝试一些，你一定会喜欢上的。
