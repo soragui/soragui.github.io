@@ -44,3 +44,7 @@ bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-serve
 ```
 
 等待一段时间，它会安装 docker 和 outline server 在你的服务器上面，安装完成后悔显示，shadowbox 的控制链接，这个链接后面使用 Outline Manager 会使用到，直接复制就可以了，至于 提示的 API 端口和 Access Key 端口，如果你没有使用防护墙就可以不用管了。
+
+#### 客户端安装
+
+[Outline](https://github.com/Jigsaw-Code) 本身就是Google的母公司的一个开源项目，因此其可靠性还是可以的。如果你安装 outline 服务器的时候，使用 Outline Manager 生成的链接无法使用，可以试试 Outline Client ,在所有平台都可以使用，只需要复制粘贴就可以了。如果你下载很慢，可以直接 复制 github release 页面的链接到迅雷直接下载。
