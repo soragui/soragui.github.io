@@ -5,7 +5,8 @@
 	jQuery.mmenu oncanvas CSS
 */
 .mm-hidden {
-  display: none !important; }
+  display: none !important; 
+}
 
 .mm-wrapper {
   overflow-x: hidden;
