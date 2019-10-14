@@ -855,6 +855,12 @@ dd {
     width: 20%;
 }
 
+.centerimg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .post blockquote {
     clear: both;
     margin: 2.5em 0;
