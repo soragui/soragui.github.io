@@ -802,7 +802,8 @@ dd {
 }
 
 .pageTitle {
-    margin: 2rem auto 1em;
+    margin: 2rem auto 2em;
+    color: #176ba3;
     text-align: center
 }
 
@@ -826,6 +827,7 @@ dd {
 
 .header h1 {
     margin: 0 auto;
+    float: left;
     padding-left: 2rem;
     font-size: 1em;
     line-height: 3em;
