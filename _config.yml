@@ -22,7 +22,7 @@ url:            'https://soragui.com'
 author:         追求真空 
 
 permalink:       /:year/:title/
-#menu:
+#navigation:
 #  - title: 'Blog'
 #    url: '/posts'
 # seo setting
