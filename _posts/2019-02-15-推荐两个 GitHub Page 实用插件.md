@@ -70,7 +70,7 @@ disqus: YOUR_SHORTNAME
 ### 3. 找到你的 post.html 文件，然后在合适的地方添加如下：
 
 ```html
-{% include disqus_comments.html %}
+{% include disqus.html %}
 ```
 
 大功告成，现在你可以重新生成看一下效果了。

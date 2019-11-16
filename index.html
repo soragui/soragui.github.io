@@ -1,33 +1,61 @@
 ---
-layout: home
-title: 博客
-description: 追求真空-个人博客合集
-comments: false
+layout: default
+title: Home
 ---
 
-{% for post in site.posts %}
-    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+{% if page.url == "/" %}
 
-    {% if forloop.first %}
-    <article>
-      <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-      <ul>
-    {% endif %}
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Featured</span></h2>
+    </div>
+    <div class="row">
 
-        <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% for post in site.posts %}
 
-    {% if forloop.last %}
-      </ul>
-    </article>
-    {% else %}
-        {% if this_year != next_year %}
-          </ul>
-        </article>
-        <article>
-          <h2 id="{{ next_year }}-ref" class="year-heading">{{next_year}}</h2>
-          <ul>
+        {% if post.featured == true %}
+
+            {% include featuredbox.html %}
+
         {% endif %}
-    {% endif %}
-{% endfor %}
+
+    {% endfor %}
+
+    </div>
+</section>
+
+{% endif %}
+
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts">
+
+    <div class="section-title">
+
+        <h2><span>All Stories</span></h2>
+
+    </div>
+
+    <div class="row listrecent">
+
+        {% for post in paginator.posts %}
+
+        {% include postbox.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
+</div>
 

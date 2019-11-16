@@ -1,34 +1,63 @@
-title: 追求真空
-subtitle: 编程让生活更轻松.
-description: 用心编程，用心写文章
-meta_description: "追求真空个人博客，编程学习心得分享"
+# Site
+name: "追求真空"
+title: "追求真空"
+description: ""
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+# google_analytics: 'UA-46278016-1'
+disqus: 'soragui'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
 
-markdown: kramdown
-highlighter: rouge
+# Authors
+authors:
+  sal:
+    name: soragui
+    display_name: 追求真空
+    gravatar: b6e8f7083371a207ce81a546af52867b
+    email: ziwo520@gmail.com
+    web: https://soragui.com
+    twitter: https://twitter.com/ziwo520
+    description: "编程-学习-思考"
 
-plugins: 
+# Plugins
+plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-seo-tag
-paginate: 20
-domain_name: 'https://soragui.com' 
-disqus: soragui
-social:
-  name: 追求真空
-  twitter: ziwo520
-  github: soragui
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 12
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
 
-# Details for the RSS feed generator
-url:            'https://soragui.com'
-author:         追求真空 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
-permalink:       /:year/:title/
-#navigation:
-#  - title: 'Blog'
-#    url: '/posts'
-# seo setting
-logo: assets/images/logo.png
-twitter:
-  username: ziwo520
-  card: summary
- 
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
 
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

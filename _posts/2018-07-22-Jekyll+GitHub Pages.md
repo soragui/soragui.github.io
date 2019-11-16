@@ -1,5 +1,7 @@
 ---
+layout: post
 description: 使用 Jekyll 发布 Github Pages
+image: /assets/images/touring.jpg
 ---
 
 > Jekyll + GitHub Pages 本以为很简单，但就是让我折腾了一天，还什么都没有学到，所以在这里来描述一些心里的感受。

@@ -1,4 +1,5 @@
 ---
+layout: post
 description: 修改内核配置和挂载点
 ---
 
