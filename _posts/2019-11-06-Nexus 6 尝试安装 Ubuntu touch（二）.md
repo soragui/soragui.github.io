@@ -1,9 +1,8 @@
 ---
 layout: post
 description: 修改内核配置和挂载点
+image: assets/images/utouch.jpg
 ---
-
-![Ubuntu Touch](https://upload-images.jianshu.io/upload_images/2849484-d59d67bd0cae85eb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 昨天粗略的看了一下相关的文档，很兴奋结果就是并没有仔细的阅读和了解，结果就导致很多东西都说的有失偏颇甚至有些错误和误导。因此，今天的任务就是把昨天错误的地方指正，说仔细一点。其次，就是分享一下第一次安装成功的喜悦心情，并附上相关源码和镜像以供大家使用。
 

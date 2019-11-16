@@ -1,6 +1,7 @@
 ---
 layout: post
-image: flutter.png
+image: assets/images/flutter.png
+comments: true
 ---
 > 现在移动开发界面应该占了很大一部分，而且越简洁、越直接就越好，让人赏心悦目，而添加一些简单的动画在里面会提升与用户的交互感，下面就开始学习 Flutter 中的动画吧！
 

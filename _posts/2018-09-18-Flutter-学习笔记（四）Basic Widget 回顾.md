@@ -1,6 +1,7 @@
 ---
 layout: post
-image: flutter.png
+image: assets/images/flutter.png
+comments: true
 ---
 >把自己的所思所想，所做所为写成博客的形式确实有不少的好处。其中最明显的就是可以整理自己的学习思路，检测自己对知识技术的理解和掌握程度，最重要的是还有一种成就感。不过最重要的就是要坚持写...这一点我很是欠缺...😕
 

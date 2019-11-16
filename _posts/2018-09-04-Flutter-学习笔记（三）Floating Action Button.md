@@ -1,6 +1,8 @@
 ---
 layout: post
-image: flutter.png
+author: sal
+image: assets/images/flutter.png
+comments: true
 ---
 > 如何定制自己的 Floating Action Button
 

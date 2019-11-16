@@ -1,6 +1,7 @@
 ---
 layout: post
-image: flutter.png
+image: assets/images/flutter.png
+comments: true
 ---
 >接触Flutter已经一个月了，自认为已经入门了，所以就来写一写自己的学习笔记，希望可以帮助到那些对Flutter感兴趣的人。
 

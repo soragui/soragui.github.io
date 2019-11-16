@@ -1,7 +1,8 @@
 ---
 layout: post
-image: /assets/images/flutter.png
+image: assets/images/flutter.png
 description: 使用 Flutter UI 框架开发的聊天界面
+comments: true
 ---
 > 最近一直在学习和关注Flutter技术，觉得这应该是未来移动端的一个趋势所以学习动力很足。Flutter现在还不是很成熟，包括UI设计方面，所以今天我就来总结一下开发中遇到的问题及相关解决方法。
 
