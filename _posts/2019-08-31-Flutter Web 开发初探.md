@@ -1,5 +1,8 @@
 ---
 layout: post
+image: assets/images/flutter.png
+comments: true
+author: sal
 ---
 
 > Flutter 作为一个跨平台UI设计工具，在iOS和Android上的表现已经有目共睹，那么今天就来看看如何用Flutter来开发简单高效的Web程序吧。

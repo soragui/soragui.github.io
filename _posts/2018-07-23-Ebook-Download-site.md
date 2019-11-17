@@ -3,6 +3,7 @@ layout: post
 description: 收集的电子书下载网站 
 image: assets/images/ebooks.png
 comments: true
+author: sal
 ---
 
 >虽然我很不愿意承认，但我还算是一个喜欢看书的孩子而实际情况则是每一本书都只看了一点皮毛，收获不是很多。还好有一件可以那得出手的那就是浏览和收集了不少下载电子书的网站，这里我就简单的比较一下，有些地址可能会因为时间而无效.....

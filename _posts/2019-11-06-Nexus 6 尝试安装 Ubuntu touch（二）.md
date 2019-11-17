@@ -2,6 +2,8 @@
 layout: post
 description: 修改内核配置和挂载点
 image: assets/images/utouch.jpg
+comments: true
+author: sal
 ---
 
 昨天粗略的看了一下相关的文档，很兴奋结果就是并没有仔细的阅读和了解，结果就导致很多东西都说的有失偏颇甚至有些错误和误导。因此，今天的任务就是把昨天错误的地方指正，说仔细一点。其次，就是分享一下第一次安装成功的喜悦心情，并附上相关源码和镜像以供大家使用。
@@ -47,7 +49,7 @@ kernel/moto/shamu/arch/arm/configs/shamu_defconfig
 ./mer-kernel-check/mer_verify_kernel_config kernel/moto/shamu/arch/arm/configs/shamu_defconfig
 ```
 其输出结果如下，当然这是我修改之后再次运行的结果：
-![内核配置检测](https://upload-images.jianshu.io/upload_images/2849484-471e88636e3dec83.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![内核配置检测](/assets/images/utouch/kernels.png)
 
 其中每一项都以换行分开了，就拿第一项做一个例子吧！最前面是一个大写的 WARNING，表示修不修改问题不大，然后就是第二行表示没有设置任何的值，第三行表示允许设置的值，第四行就是注释了，表明这个配置的是什么以及一些建议。
 
@@ -62,7 +64,7 @@ kernel/moto/shamu/arch/arm/configs/shamu_defconfig
 halium/hybris-boot/fixup-mountpoints
 ```
 找到这个文件，打开后搜索 shamu ，看到有一些修复项目，不过还是要检查一下是不是齐全。下图是我修改后的结果：
-![挂载点](https://upload-images.jianshu.io/upload_images/2849484-7d36436a4ef31037.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![挂载点](/assets/images/utouch/fixmo.png)
 
 对比的话首先找到，设备相关的挂载文件，我的位置在：
 ```
@@ -82,10 +84,10 @@ device/moto/shamu/fstab.shamu
 3. 使用 ssh root@ip 登录即可。
 
 具体步骤可以参考[官方文档](https://docs.halium.org/en/latest/porting/debug-build/early-init.html)，这里就不详细说了，直接上图。
-![查看手机IP](https://upload-images.jianshu.io/upload_images/2849484-fbbb7527c1f6350e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![查看手机IP](/assets/images/utouch/lookphoneip.png)
 
-![设置电脑端IP](https://upload-images.jianshu.io/upload_images/2849484-003f4dd472b1c980.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![设置电脑端IP](/assets/images/utouch/lookpcip.png)
 
-![登录成功](https://upload-images.jianshu.io/upload_images/2849484-ceab890251f60477.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![登录成功](/assets/images/utouch/sshsucc.png)
 
 好了，今天就到这里，感觉还有好多东西没有描述清楚，不急以后慢慢探索、尝试。祝大家生活工作愉快，下期再见。

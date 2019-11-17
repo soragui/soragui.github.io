@@ -1,3 +1,9 @@
+---
+layout: post
+image: assets/images/mathtype.jpg
+comments: true
+author: sal
+---
 Mathtype 是由Design Science公司设计的一个可以在Word、PowerPoint等文字处理和演示程序中编辑的科学公式编辑器。
 支持TeX和LaTeX，以及国际标准MathML，并能够把公式转化为支持Web的各种图形（GIF等），也支持WMF和EPS输出。
 

@@ -3,6 +3,7 @@ layout: post
 title: 推荐两个 Github Page 实用插件
 description: 两个很实用的插件，让你的 Github Page 博客更受欢迎。
 image: assets/images/gitpage.png
+author: sal
 ---
 
 > 如果你还不知道GitHub Page,可以参考[这个链接](https://pages.github.com/)。简单来说就是一个静态网站托管的地方，一般都是用来写博客或文档的地方。

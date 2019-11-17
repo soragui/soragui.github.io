@@ -1,23 +1,8 @@
-# Mediumish - Jekyll Theme
+# 个人博客指南
+> 让写博客成为一种生活方式，认识自己、认识世界的一种途径。
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+## 目的
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
-
-
-### Copyright
-
-Copyright (C) 2019 Sal, https://www.wowthemes.net
-
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
-
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-### Contribute
-
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
-
-Thank you!
+1. 梳理自己在成长的过程中的收获，提炼整理自己的想法和思考。
+2. 作为别人认识自己的一个窗口，而不是为了宣传和盈利，和别人交朋友的态度来阐述自己的思想。
+3. 认识世界的一种方式方法。

@@ -2,6 +2,8 @@
 layout: post
 description: 下载源码和编译 ubuntu touch and nexus 6
 image: assets/images/utouch.jpg
+commnets: true
+author: sal
 ---
 
 很早就听说 Ubuntu 出移动版了，不过支持的机型还是很少，如果尝试安装的话需要自己改代码、配置文件，因此就没有动手了。不过，最近几天听说 Ubuntu touch 出来了，而且还支持 nexus 4 和 nexus 5，本来想打算一键刷机的，结果一看我是 nexus 6，还没有支持这个机型。不过，我想如果从源码自己编译，应该不会改动太大吧，毕竟4和5都支持了。于是，就开始了下载编译安装....。

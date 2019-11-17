@@ -2,6 +2,7 @@
 layout: post
 image: assets/images/flutter.png
 comments: true
+author: sal
 ---
 > 对Flutter跨平台的信息是越来越大了，进过了这么长时间的考察，决定以后移动端的开发就用它了(其实这段时间一直没怎么看)。首先就从最简单的 Row 和 Column 开始吧。
 
