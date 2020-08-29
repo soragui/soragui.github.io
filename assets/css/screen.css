@@ -899,3 +899,10 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+.wx-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
