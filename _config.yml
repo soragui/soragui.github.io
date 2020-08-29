@@ -1,6 +1,6 @@
 # Site
-name: "追求真空"
-title: "追求真空"
+name: "soragui"
+title: "soragui"
 description: ""
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
@@ -15,7 +15,7 @@ permalink: /:title/
 authors:
   sal:
     name: soragui
-    display_name: 追求真空
+    display_name: soragui
     gravatar: b6e8f7083371a207ce81a546af52867b
     email: ziwo520@gmail.com
     web: https://soragui.com
