@@ -1,6 +1,9 @@
 # 个人博客指南
 > 让写博客成为一种生活方式，认识自己、认识世界的一种途径。
 
+## TODO
+1. [打造图书馆一样的博客]([_includes/disqus.html](https://www.animalz.co/blog/library-vs-publication/))
+
 ## 大纲
 #### 每周周记
 
