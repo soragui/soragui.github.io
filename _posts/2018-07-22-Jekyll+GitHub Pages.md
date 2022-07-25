@@ -4,6 +4,7 @@ description: 使用 Jekyll 发布 Github Pages
 image: assets/images/githubp.png
 comments: true
 author: sal
+categories: selfhosted
 ---
 
 > Jekyll + GitHub Pages 本以为很简单，但就是让我折腾了一天，还什么都没有学到，所以在这里来描述一些心里的感受。

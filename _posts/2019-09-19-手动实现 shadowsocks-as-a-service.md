@@ -4,6 +4,7 @@ description: shadowsocks 自己搭建 不完全指南
 image: assets/images/ssser.jpg
 comments: true
 author: sal
+categories: shadowsocks
 ---
 
 > 不知道为什么，最近 shadowsocks 都遭遇封杀，而且刚刚新建的不到一天就完蛋了，因此就像什么时候用就什么时候搭建，于是 SaaS 就此诞生。
