@@ -1,7 +1,7 @@
 ---
 layout: post
 author: sal
-category: Flutter
+categories: flutter
 description: flutter 学习笔记 hello world widget 工程目录详细解析
 image: assets/images/flutter.png
 comments: true

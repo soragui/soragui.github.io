@@ -3,7 +3,7 @@ layout: post
 image: assets/images/ssser.jpg
 comments: true
 author: sal
-category: shadowsocks
+categories: shadowsocks
 ---
 
 >虽然API接口已经安装成功，但我还是不知道如何使用，不过还是要记录一下安装配置的过程，这也算是小白的一点成长。
