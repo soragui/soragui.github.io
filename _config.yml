@@ -22,6 +22,18 @@ authors:
     twitter: https://twitter.com/ziwo520
     description: "编程-学习-思考"
 
+# Categories
+cates:
+  daily:
+    name: Daliy
+    permalink: /catedaily
+    image: assets/images/weeknote.jpg
+    description: 每周学习收获总结
+  flutter:
+    name: Flutter
+    permalink: /cateflutter
+    image: assets/images/flutter.png
+    description: Flutter学习总结
 # Plugins
 plugins:
   - jekyll-paginate
@@ -29,14 +41,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
     
 # Pagination 
 paginate: 12
