@@ -17,7 +17,7 @@ categories: flutter
 
 ![Flutter Architecture](/assets/images/basicwidget/flutter_architecture.png)
 
-上图就是Flutter的架构了，以后还会经常复习，Widgets 属于第二层，在我眼里它就是负责UI的...当然实际上不止这些。
+上图就是Flutter的架构了，以后还会经常复习，Widgets 属于第二层，在我眼里它就是负责UI的...当然实际上不止这些。
 
 学习和复习都是参考 [Flutter Widget Catalog Basics](https://flutter.io/widgets/basics/),只是关注的点不一样而已，传说中的温故而知新 😛 .
 

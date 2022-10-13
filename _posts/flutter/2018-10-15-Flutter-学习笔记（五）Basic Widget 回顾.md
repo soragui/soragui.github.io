@@ -57,7 +57,7 @@ Row({
   })
 ```
 
-其中 key 相当于一个指针对象，以后你可以用这个key来获取这个Row的一些属性。MainAxisAlignment 和 CrossAxisAlignment 分别表示主对角线对齐方式和副对角线对齐方式，在Row中就是 水平对齐方式和垂直对齐方式，那么在Column中就是垂直对齐方式和水平对齐方式。同样的MainAxisSize 在 Row 中表示水平方向上占用空间的大小，在 Column中表示在垂直方向上占用空间的大小。TextDirection 和 VerticalDirection 是选择对齐方向从哪里开始的(反正我是这么理解的)。好了下面就从具体的例子来看看这些参数是如何发挥作用的：
+其中 key 相当于一个指针对象，以后你可以用这个key来获取这个Row的一些属性。MainAxisAlignment 和 CrossAxisAlignment 分别表示主对角线对齐方式和副对角线对齐方式，在Row中就是 水平对齐方式和垂直对齐方式，那么在Column中就是垂直对齐方式和水平对齐方式。同样的MainAxisSize 在 Row 中表示水平方向上占用空间的大小，在 Column中表示在垂直方向上占用空间的大小。TextDirection 和 VerticalDirection 是选择对齐方向从哪里开始的(反正我是这么理解的)。好了下面就从具体的例子来看看这些参数是如何发挥作用的：
 
 ```dart
 Row (

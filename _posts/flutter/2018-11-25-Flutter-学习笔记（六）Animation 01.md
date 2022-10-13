@@ -16,13 +16,13 @@ categories: flutter
 在 Flutter 中自带的动画主要有如下四种表现形式：
 
  - Translation 可以理解为平行移动
- - Rotation 旋转运动
+ - Rotation 旋转运动
  - Scale  放大缩小
  - Opacity 更改透明度
 
-你可以参考[官方文档](https://docs.flutter.io/flutter/animation/Curves-class.html)这个动画还是很清楚的。这里有一个 CurvedAnimation 类，它就是继承自 Animation<double> 类，也就是说它的 Tween 中要变化的类型就是一个 double 。默认是从 0.0 到 1.0。可以理解为在这之间发生的一些事情，即动画，也就是 Widget 的移动。
+你可以参考[官方文档](https://docs.flutter.io/flutter/animation/Curves-class.html)这个动画还是很清楚的。这里有一个 CurvedAnimation 类，它就是继承自 Animation<double> 类，也就是说它的 Tween 中要变化的类型就是一个 double 。默认是从 0.0 到 1.0。可以理解为在这之间发生的一些事情，即动画，也就是 Widget 的移动。
 
-CurvedAnimation 参数如下：
+CurvedAnimation 参数如下：
 
 ```dart
 CurvedAnimation({
@@ -32,9 +32,9 @@ CurvedAnimation({
 })
 ```
 
-这里的 parent 参数用于指定动画控制类，一般就是 AnimationController 类用来指定开始到结束的持续时间、一些监听函数以及控制动画的开始等，而 curve 和 reverseCurve 就是指定动画的形式，也就是上面官方给出的几种动画形式。
+这里的 parent 参数用于指定动画控制类，一般就是 AnimationController 类用来指定开始到结束的持续时间、一些监听函数以及控制动画的开始等，而 curve 和 reverseCurve 就是指定动画的形式，也就是上面官方给出的几种动画形式。
 
-好了，现在来看一个简单的例子，前面说了 Translaiton 是四种动画表现形式中的一种，而 SizeTransition 就是其中的一个实现，它继承自 AnimatedWidget ，所以可以直接使用。如下所示，是它的参数：
+好了，现在来看一个简单的例子，前面说了 Translaiton 是四种动画表现形式中的一种，而 SizeTransition 就是其中的一个实现，它继承自 AnimatedWidget ，所以可以直接使用。如下所示，是它的参数：
 
 ```dart
 
@@ -48,7 +48,7 @@ SizeTransition({
 
 ```
 
-可以看出一个有一个  Animation<double> 参数指定动画形式等，而 Widget 可以是任何控件。下面来看看 AnimationController 是个什么东西：
+可以看出一个有一个  Animation<double> 参数指定动画形式等，而 Widget 可以是任何控件。下面来看看 AnimationController 是个什么东西：
 
 ```dart
 AnimationController({
@@ -58,11 +58,11 @@ AnimationController({
 })
 ```
 
-目前我们首先来看看这两个参数，一个是指定 Ticker，这个就是给一个定时器，需要 Widget 类继承一个 TickerProvider。而 duration 很好理解就是动画的持续时间，使用 Controller 可以控制动画的开始和结束以及动画的方向。
+目前我们首先来看看这两个参数，一个是指定 Ticker，这个就是给一个定时器，需要 Widget 类继承一个 TickerProvider。而 duration 很好理解就是动画的持续时间，使用 Controller 可以控制动画的开始和结束以及动画的方向。
 
 
 ### 如何实现一个简单的动画
-好了，有了以上基础我们就可以去实现一个简单的动画了。当然这个动画是使用 Flutter SDK 里面已经定义好的动画类，只需要组合一下而已，步骤很简单：
+好了，有了以上基础我们就可以去实现一个简单的动画了。当然这个动画是使用 Flutter SDK 里面已经定义好的动画类，只需要组合一下而已，步骤很简单：
 
 1. 定义一个 Stateful 控件并继承 SingleTickerProviderStateMixin。
 
@@ -107,7 +107,7 @@ AnimationController({
         }
     }
     ```
- 2. 接下来就可以使用 Flutter SDK 中定义好的动画控件来定义一个控件了，这里我使用的就是 SizeTransition。Size 表明这个动画效果是使用剪切效果实现的，也就是慢慢的从无到有显示控件。
+ 2. 接下来就可以使用 Flutter SDK 中定义好的动画控件来定义一个控件了，这里我使用的就是 SizeTransition。Size 表明这个动画效果是使用剪切效果实现的，也就是慢慢的从无到有显示控件。
 
     ```dart
         Widget _buildAnima() {
@@ -123,14 +123,14 @@ AnimationController({
 
         }
     ```
-    其中的 sizeFactor 指定了动画的控制变量以及动画的类型，参数当然可以自己指定。
+    其中的 sizeFactor 指定了动画的控制变量以及动画的类型，参数当然可以自己指定。
 
- 3. 接下来就是要控制动画的开始、结束了，这个很简单，在你想要动画开始，以及如何开始的地方，使用 _controller 变量的内置方法即可：
+ 3. 接下来就是要控制动画的开始、结束了，这个很简单，在你想要动画开始，以及如何开始的地方，使用 _controller 变量的内置方法即可：
 
     ```dart
-        _controller.forward();   // 正向 开始 动画
-        _controller.reverse();   // 反向 开始 动画
+        _controller.forward();   // 正向 开始 动画
+        _controller.reverse();   // 反向 开始 动画
         _controller.stop();      // 停止 动画
     ```
 
-好了，这样基本动画已经可以实现了，可以参考官方文档中的各种动画类型，当然最高级的就是自己定义动画了，也就是写 Tween<T> 类了，目前还没学到那里 ... 😃
+好了，这样基本动画已经可以实现了，可以参考官方文档中的各种动画类型，当然最高级的就是自己定义动画了，也就是写 Tween<T> 类了，目前还没学到那里 ... 😃
