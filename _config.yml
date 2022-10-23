@@ -25,7 +25,7 @@ authors:
 # Categories
 cates:
   daily:
-    name: Daliy
+    name: Week Notes
     permalink: /catedaily
     image: assets/images/weeknote.jpg
     description: 每周学习收获总结
