@@ -24,6 +24,11 @@ authors:
 
 # Categories
 cates:
+  css:
+    name: CSS 的故事
+    permalink: /catecss
+    image: assets/images/csscover.png
+    description: 记录 CSS 相关知识级学习笔记
   daily:
     name: Week Notes
     permalink: /catedaily
