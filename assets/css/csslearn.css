@@ -1,0 +1,88 @@
+
+/**
+ css for csslearn blog
+*/
+
+.slidinglink  {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 .25rem;
+    padding: 0 -.25rem;
+    transition: color 0.3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.slidinglink:hover  {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+
+.swappinlink {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+  
+.swappinlink::before,
+.swappinlink::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+.swappinlink::before {
+    background-color: #54b3d6;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.swappinlink::after {
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: #54b3d6;
+}
+
+.swappinlink:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+.swappinlink:hover::after {
+    transform: translate3d(0, 0, 0);
+}
+
+.swappinlink span {
+    display: inline-block;
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.swappinlink:hover span {
+    transform: translate3d(-200%, 0, 0);
+}
+
+/* growing background effect */
+.growinglink {
+    text-decoration: none;
+    position: relative;
+}
+
+.growinglink::before {
+    content: '';
+    background-color: hsla(196, 61%, 58%, .75);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 4px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+.growinglink:hover::before {
+    bottom: 0;
+    height: 100%;
+}
