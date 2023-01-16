@@ -159,7 +159,67 @@
     transform: scaleX(1);
 }
 
+/* git logo */
 
+.git-logo {
+    height: 150px;
+    width: 150px;
+    background-color: #f06033;
+    border-radius: 15px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.line1 {
+    width: 110px;
+    background-color: white;
+    height: 10px;
+    top: 40px;
+    position: absolute;
+}
+
+.line1::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    top: -8px;
+    left: 30px;
+}
+
+.line1::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    top: -8px;
+    left: 90px;
+}
+
+.line2 {
+    width: 90px;
+    background-color: white;
+    height: 12px;
+    top: 70px;
+    left: 30px;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.line2::after {
+    content: "";
+    width: 30px;
+    background-color: white;
+    height: 30px;
+    border-radius: 50%;
+    top: -8px;
+    left: 70px;
+    position: absolute;
+}
 
 
 
