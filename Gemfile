@@ -20,3 +20,5 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.7"
+
+gem "kramdown-syntax-coderay", "~> 1.0"
