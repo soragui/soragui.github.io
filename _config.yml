@@ -29,16 +29,16 @@ cates:
     permalink: /catedaily
     image: assets/images/weeknote.jpg
     description: 每周学习收获总结
-  flutter:
-    name: Flutter
-    permalink: /cateflutter
-    image: assets/images/flutter.png
-    description: Flutter学习总结
   css:
     name: CSS 的故事
     permalink: /catecss
     image: assets/images/csscover.png
     description: 记录 CSS 相关知识级学习笔记
+  flutter:
+    name: Flutter
+    permalink: /cateflutter
+    image: assets/images/flutter.png
+    description: Flutter学习总结 
 # Plugins
 plugins:
   - jekyll-paginate
