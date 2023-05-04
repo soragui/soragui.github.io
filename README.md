@@ -2,7 +2,8 @@
 > 让写博客成为一种生活方式，认识自己、认识世界的一种途径。
 
 ## 目的
-1. [打造图书馆一样的博客]([_includes/disqus.html](https://www.animalz.co/blog/library-vs-publication/))
+1. [打造图书馆一样的博客](https://www.animalz.co/blog/library-vs-publication/)
+2. 记录自己学习关于计算机软件各个方面的知识、启发、实践
 
 ## 大纲
 #### 每周周记
