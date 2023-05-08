@@ -30,10 +30,10 @@ cates:
     image: assets/images/weeknote.jpg
     description: 每周学习收获总结
   css:
-    name: CSS 的故事
+    name: 前端笔记
     permalink: /catecss
     image: assets/images/csscover.png
-    description: 记录 CSS 相关知识级学习笔记
+    description: 记录学习前端知识-CSS HTML React的心路历程
   flutter:
     name: Flutter
     permalink: /cateflutter
