@@ -55,7 +55,7 @@ paginate_path: /page:num/
 markdown: kramdown
 
 kramdown:
-  syntax_highlighter: coderay
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
     bold_every: 5
 
