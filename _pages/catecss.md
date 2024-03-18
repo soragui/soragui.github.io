@@ -1,6 +1,6 @@
 ---
 layout: catecss
-title: CSS 故事
+title: 前端学习笔记
 permalink: /catecss
 ---
 
